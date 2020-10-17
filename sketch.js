@@ -19,7 +19,7 @@ function setup() {
  
 }
 
-function draw() {
+function draw(){
 
   background("black") 
 
