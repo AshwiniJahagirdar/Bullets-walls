@@ -6,7 +6,7 @@ function setup() {
 
   createCanvas(1600,800);
 
-  speed=Math.round(random(2,21));
+  speed=Math.round(random(50,200));
   weight =Math.round(random(30,52));
   thickness = Math.round(random(20,85));
 
@@ -44,10 +44,10 @@ function draw() {
    drawSprites();
 }
 
-function hasCollided(bullet1, wall1){
+function hasCollided(bullet2, wall2){
 
   bulletRightEdge = bullet1.x + bullet1.width;
-  wallLeftEdge = wall1.x;
+  wallLeftEdge = wall2.x;
 
   if(bulletRightEdge>=wallLeftEdge){
     return true;
