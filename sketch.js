@@ -6,7 +6,7 @@ function setup() {
 
   createCanvas(1600,800);
 
-  speed=Math.round(random(100,200));
+  speed=Math.round(random(50,200));
   weight =Math.round(random(30,52));
   thickness = Math.round(random(20,85));
 
